@@ -1,0 +1,19 @@
+<style>
+   .quiz h5{text-align: left; font-size: 30px}
+   .quiz div{padding-top: 5px}
+    .quiz div input{
+        padding-bottom: 8px;
+        padding-left: 30px;
+    }
+</style>
+<body>
+<div class="quiz">
+    <h5>{{arr[index].question}}</h5>
+    <div ng-repeat="opt in arr[index].option">
+        <input class="input" type="radio"  ng-model="arr[index].answer" value="{{opt.answer}}"/>{{opt.answer}}
+    </div>
+    <button ng-click="next()">Next</button>
+
+</div>
+
+</body>

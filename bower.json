@@ -1,0 +1,28 @@
+{
+  "name": "lib",
+  "authors": [
+    "Usama ayub <usamaayub2012@gmail.com>"
+  ],
+  "description": "",
+  "main": "",
+  "moduleType": [],
+  "license": "MIT",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "^3.3.6",
+    "angular-material": "^1.0.7",
+    "angular": "^1.5.5",
+    "firebase": "^2.4.2",
+    "angularfire": "^1.2.0",
+    "angular-route": "^1.5.5"
+  },
+  "resolutions": {
+    "angular": "1.5.5"
+  }
+}
